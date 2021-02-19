@@ -263,6 +263,11 @@ outputs:
   - name: faiss-gpu
     build:
       skip: true  # [cuda_compiler_version == "None"]
+      # this compat-package doesn't need to distinguish between cuda-versions
+      ignore_run_exports:
+        - {{ compiler('cuda') }}
+      ignore_run_exports_from:
+        - {{ compiler('cuda') }}
     requirements:
       run:
         - faiss ={{ version }}=*_cuda
