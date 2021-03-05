@@ -1,7 +1,7 @@
 From 06be67cfa8e10f1f66e3a66982972f9e4adb933b Mon Sep 17 00:00:00 2001
 From: "H. Vetinari" <h.vetinari@gmx.com>
 Date: Wed, 3 Mar 2021 23:59:39 +0100
-Subject: [PATCH 18/18] handle long vs. windows in swigfaiss.swig
+Subject: [PATCH 18/19] handle long vs. windows in swigfaiss.swig
 
 ---
  faiss/python/swigfaiss.swig | 40 ++++++++++++++++++-------------------
