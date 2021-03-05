@@ -1,7 +1,7 @@
 From 6a67e727e4fa2f107af47a5e90ee3f2abcfd6bbd Mon Sep 17 00:00:00 2001
 From: "H. Vetinari" <h.vetinari@gmx.com>
 Date: Thu, 18 Feb 2021 19:30:58 +0100
-Subject: [PATCH 15/18] do not overload __builtin_ctz for win + cuda>=11
+Subject: [PATCH 15/19] do not overload __builtin_ctz for win + cuda>=11
 
 ---
  faiss/impl/platform_macros.h | 3 +++

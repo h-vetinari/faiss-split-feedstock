@@ -1,7 +1,7 @@
 From e2dd01d66900e934d1fad3259e7a3eae41913b0d Mon Sep 17 00:00:00 2001
 From: "H. Vetinari" <h.vetinari@gmx.com>
 Date: Fri, 19 Feb 2021 19:07:40 +0100
-Subject: [PATCH 16/18] fix int32 vs int64 issue in GPU test
+Subject: [PATCH 16/19] fix int32 vs int64 issue in GPU test
 
 ---
  faiss/gpu/test/test_gpu_index.py | 7 +++++--
